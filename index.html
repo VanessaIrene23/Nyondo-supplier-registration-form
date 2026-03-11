@@ -1,0 +1,101 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Supplier Registration Form</title>
+    <link rel="stylesheet" href="stylesheet.css" />
+  </head>
+  <body>
+    <div class="box">
+      <div class="form-box">
+        <h1>Nyondo Supplier Registration Form</h1>
+        <form class="form-grid">
+          <!-- Company info -->
+          <div class="row">
+            <h3>Company Information</h3>
+            <label for company-name>Company name</label>
+            <input id="company-information" type="text" />
+            <label for="company-type">Company type</label>
+            <input id="company-type" type="text" />
+          </div>
+          <!-- company numbers -->
+          <div class="row">
+            <h3>Company numbers</h3>
+            <label for="company reg number">Company Registration number</label>
+            <input id="company reg-number" type="value" />
+            <label for="Account-number">Account number</label>
+            <input id="Account-number" type="value" />
+          </div>
+
+          <!-- contacts -->
+          <div class="row">
+            <h3>Contact Details</h3>
+            <label for="Email">Email</label>
+            <input id="email" type="value" />
+            <label for phoneNumber>Phone number</label>
+            <input id="phoneNumber" type="number" />
+          </div>
+          <!-- Delivery area -->
+          <div class="row">
+            <h3>Delivery Location</h3>
+            <label for="location-1"> Location 1</label>
+            <input id="location-1" type="place" />
+            <label for="location-2"> Location 2</label>
+            <input id="location-2" type="place" />
+          </div>
+          <!-- products supplied -->
+          <div class="row">
+            <h3>Products Supplied</h3>
+            <label>Products Supplied</label>
+            <select>
+              <option>Plumbing Materials</option>
+              <option>Tools and Equipment</option>
+              <option>Building Materials</option>
+              <option>Electrical Materials</option>
+              <option>Paint and Finishing Materials</option>
+            </select>
+          </div>
+          <!-- legal compliance -->
+          <div class="row">
+            <h3>Legal compliance</h3>
+            <label for="Tax-id">Tax Identification Number</label>
+            <input id="Tax-Identification-Number" type="number" />
+          </div>
+          <!-- Payment terms -->
+          <div class="row">
+            <h3>Payment Term</h3>
+            <select>
+              <option>Cash on delivery</option>
+              <option>Installments</option>
+              <option>Credit card</option>
+            </select>
+          </div>
+          <!-- additional info -->
+          <div class="row">
+            <h3>Additional Information</h3>
+            <!-- <label for="additional-information"></label> -->
+            <textarea rows="6"></textarea>
+          </div>
+
+          <div class="row">
+            <h4>Date</h4>
+            <label for="date"></label>
+            <input id="date" type="date" />
+          </div>
+
+          <div class="row">
+            <h4>Supplier signature</h4>
+            <label for="supplier-signature"></label>
+            <input id="supplier-signature" type="value" />
+          </div>
+
+          <!-- buttons -->
+          <div class="group">
+            <button class="btn" type="submit">Register Supplier</button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </body>
+</html>
